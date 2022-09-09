@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-phone{
+    width: 450px;
+}
+
+article{
+    width: 350PX;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    padding: 50px;
+}
