@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    
 
     <main class="container-imagens">
         <img class="img-phone" src="./assets/img/celular.png" alt="imagem do celular" />
@@ -46,5 +47,24 @@
     </article>
 
 </body>
+
+<script>
+
+    let image = document.getElementById("change-image")    
+
+    function changeImage(){
+
+        if(image.style.opacity == 0){
+            image.style.opacity = 1
+        }else{
+            image.style.opacity = 0
+        }
+    }    
+
+    setInterval(()=>{
+        changeImage()
+    }, 4000)
+
+</script>
 
 </html>
